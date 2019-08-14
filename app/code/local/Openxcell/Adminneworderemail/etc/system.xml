@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <sales_email>
+            <groups>
+                <order>
+                    <fields>
+                        <admin_email_notify translate="label comment">
+                            <label>Send Email with Attachment</label>
+							<comment><![CDATA[separate by comma ","]]></comment>
+                            <frontend_type>text</frontend_type>                            
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </admin_email_notify>
+                        
+                        <admin_email_type translate="label comment">
+                            <label>Type of Attachment you need</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminneworderemail/options</source_model>
+                            <sort_order>101</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </admin_email_type>
+                        
+						<admin_email_template translate="label">
+							<label>Email Template for Attachments</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_email_template</source_model>
+							<sort_order>102</sort_order>
+							<show_in_default>1</show_in_default>
+						</admin_email_template>
+                    </fields>
+                </order>
+            </groups>
+        </sales_email>				
+    </sections>
+</config>

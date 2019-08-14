@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openxcell_Adminneworderemail>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Openxcell_Adminneworderemail>
+    </modules>
+</config> 

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Openxcell_Attachments</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>New Order Email Attachment to Admin gives a power to admin to have a CSV or an XML file of the order along with new order email as an attachments.</summary>
+    <description>New Order Email Attachment to Admin is developed by OpenXcell. It is a free to download extension and as it is open source extension, anyone can use and customize it as per the requirements.&#xD;
+&#xD;
+This extension allows admin to add Emails on which he want to send the New Order email with Attachment of CSV/XML file</description>
+    <notes>First Release</notes>
+    <authors><author><name>Jayneel</name><user>jayneel</user><email>jayneel@openxcell.com</email></author><author><name>Manthan</name><user>manthankvora</user><email>manthan@openxcelltechnolabs.com</email></author></authors>
+    <date>2013-12-13</date>
+    <time>09:28:36</time>
+    <contents><target name="magelocal"><dir name="Openxcell"><dir name="Adminneworderemail"><dir name="Helper"><file name="Data.php" hash="db4c81ad24e5188778fbd8d21a7a43fe"/></dir><dir name="Model"><file name="Observer.php" hash="34dee16316d819b8a8cc6423c7b68e9b"/><file name="Observer_csv.php" hash="f780119b7c038ec05e0ad60ba199fbbe"/><file name="Options.php" hash="aa85d2ba537c55ce4825e4f35cf3c1f0"/></dir><dir name="etc"><file name="config.xml" hash="6f46f16a301da38f6fa828123d880077"/><file name="system.xml" hash="5be126261df23835b62277350424376c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Openxcell_Adminneworderemail.xml" hash="a86e027ce5af438d588f889ce54d425b"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><dir name="sales"><file name="order_new_admin_attachment.html" hash="6314074a0a3c3cb85490a880eb37bfae"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
